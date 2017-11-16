@@ -1,4 +1,4 @@
-class Calulate_Sgpa:
+class Calculate:
 
     def __init__(self):
         self.n_course = 0
@@ -40,7 +40,7 @@ class Calulate_Sgpa:
             print("Grade Point of %s = %d" %(self.courseCode[i], self.courseGradePoint[i]))
         print ("\nYour SGPA is : %.2f" %(self.sgpa))
 
-ob = Calulate_Sgpa()
+ob = Calculate()
 
 ob.details()
 
